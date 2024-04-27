@@ -1,0 +1,113 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.weekdays {
+    flex-direction:row-reverse;
+    display: flex;
+    height: 20px;
+    width: 50px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.days {
+    display: flex;
+    height: 20px;
+    width: 364px;
+}
+
+.empty-monday1,.empty-saturday6,.empty-wednesday3,.empty-thursday4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background: #a7309bbc;
+    position: relative;
+    top: 1.9px;
+}
+
+.empty {
+    display: flex;
+}
+
+.empty-tuesday2 ,.empty-sunday7,.empty-friday5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background: #a7309bbc;
+    position:relative;
+    top:1.9px; 
+}
+
+.workday-day {
+    height: 50px;
+    width: 50px;
+    border:1px solid black;
+    display: flex;
+    position: relative;
+    top: 1.9px;
+   justify-content: center;
+   align-items: center;
+    background-color: rgba(34, 157, 157, 0.677);
+}
+
+.weekend {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    top: 1.9px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(225, 213, 76, 0.753);
+}
+
+.first-week,.second-week,.third-week,.fourth-week,.fifth-week{
+    display: flex;
+}
+
+.workday-night {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    top: 1.9px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(172, 44, 105, 0.719);
+}
+
+.month-header {
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    left:160px;
+}
+.june {
+    margin-left: 400px;
+    margin-top: -279px;
+    
+}
+.days-june{
+    display: flex;
+        height: 20px;
+        width: 364px;
+        position: relative;
+}
+.empty-wednesday3,
+.empty-thursday4 {
+    background-color:rgba(225, 213, 76, 0.753);
+}
+@media(max-width:s786px) {
+    .months{
+        flex: 0 1 50%;
+    }
+}
